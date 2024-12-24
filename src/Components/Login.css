@@ -1,0 +1,80 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+  padding: 60px;
+  padding-inline: 28px;
+  border-radius: 20px;
+  font-family: cursive;
+}
+.parent-container {
+  display: flex;
+  background-color: rgb(241, 241, 130);
+  justify-content: center; 
+  align-items: center;
+  height: 100vh;   
+  border: 1px solid #800000;  
+ 
+}
+label{
+  display: block;
+}
+.heading {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 600;
+  font-family: cursive;
+}
+
+.form button {
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: rgb(241, 241, 130);
+
+  color: rgb(0, 0, 0);
+  font-size: medium;
+  font-weight: 600;
+  transition: 400ms;
+  font-family: cursive;
+}
+
+.form button:hover {
+  /* background-color: rgb(235, 255, 59); */
+  transition: 400ms;
+  cursor: pointer;
+}
+
+.input {
+  padding: 10px;
+  width: 280px;
+  border-radius: 10px;
+  border-style: double;
+  border-color: #800000;
+  font-size: 15px;
+  background: transparent;
+  /* box-shadow: 2px 3px rgb(0, 2, 65); */
+
+  font-family: cursive;
+}
+
+.forgot,
+a {
+  padding-top: 10px;
+  color: rgba(0, 0, 0, 0.994);
+  font-family: cursive;
+  text-decoration: none;
+  transition: 400ms;
+}
+.forgot,
+a:hover {
+  color: rgba(0, 0, 0, 0.703);
+  transition: 400ms;
+}
+
+.Mail,
+.Password {
+  font-size: 16px;
+  font-family: cursive;
+}
